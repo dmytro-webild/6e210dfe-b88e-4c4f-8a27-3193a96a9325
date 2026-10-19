@@ -1,16 +1,12 @@
-import React from "react";
+import type { ReactNode } from 'react'
 
-interface LoaderRevealProps {
-  imageSrc?: string;
-  title?: string;
-  onComplete?: () => void;
+export interface LoaderRevealProps {
+  children?: ReactNode
+  [key: string]: unknown
 }
 
-const CustomLoaderReveal = ({ onComplete }: LoaderRevealProps) => {
-  if (onComplete) {
-    onComplete();
-  }
-  return null;
-};
+export function LoaderReveal({ children }: LoaderRevealProps) {
+  return <>{children || null}</>
+}
 
-export default CustomLoaderReveal;
+export default LoaderReveal
