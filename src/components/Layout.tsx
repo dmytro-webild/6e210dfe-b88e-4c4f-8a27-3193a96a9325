@@ -27,9 +27,8 @@ export default function Layout() {
                 brand="Aion"
                 copyright="© 2026 Aion. All rights reserved."
                 socialLinks={[
-                  { icon: "Twitter", href: "#" },
-                  { icon: "Linkedin", href: "#" },
                   { icon: "Instagram", href: "https://www.instagram.com/aionlabs.ia/" },
+                  { icon: "Whatsapp", href: "https://wa.me/5511970224588" },
                 ]}
               />
     </StyleProvider>
