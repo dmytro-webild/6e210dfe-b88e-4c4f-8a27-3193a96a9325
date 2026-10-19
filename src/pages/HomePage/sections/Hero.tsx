@@ -8,23 +8,18 @@ export default function HeroSection(): React.JSX.Element {
   return (
     <div id="hero" data-section="hero">
       <HeroWorkScrollStack
-                textAnimation="fade"
-                heroAnimationDelay={4}
-                tag="1 spot left this month"
-                title="Design that"
-                titleHighlight="commands attention."
-                description="Design engineered for performance, not just aesthetics."
-                descriptionMuted="I craft every visual touchpoint your brand needs to capture attention and convert it into revenue."
-                primaryButton={{
-                  text: "Book a call with me",
-                  href: "#contact",
-                  avatarSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
-                  avatarLabel: "You",
-                }}
-                sectionTag="Selected Work"
-                sectionTitle="Projects That Speak for Themselves"
-                sectionDescription="A curated selection of design work that drove real business results for ambitious brands."
-                items={[
+        textAnimation="fade"
+        heroAnimationDelay={4}
+        tag="1 spot left this month"
+        title="Design that"
+        titleHighlight="commands attention."
+        description="Design engineered for performance, not just aesthetics."
+        descriptionMuted="I craft every visual touchpoint your brand needs to capture attention and convert it into revenue."
+        primaryButton={{"href":"#contact","avatarLabel":"You","text":"Book a call with me","avatarSrc":"https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png"}}
+        sectionTag="Selected Work"
+        sectionTitle="Projects That Speak for Themselves"
+        sectionDescription="A curated selection of design work that drove real business results for ambitious brands."
+        items={[
                   {
                     title: "HydroFlow Product Launch",
                     description: "Beverage brand shoot. Every frame engineered to sell.",
@@ -44,8 +39,8 @@ export default function HeroSection(): React.JSX.Element {
                     tag: "Interior Design",
                   },
                 ]}
-                secondaryButton={{ text: "View all my projects", href: "#" }}
-              />
+        secondaryButton={{ text: "View all my projects", href: "#" }}
+      />
     </div>
   );
 }

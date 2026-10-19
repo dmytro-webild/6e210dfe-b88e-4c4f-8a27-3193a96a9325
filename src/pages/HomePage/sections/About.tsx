@@ -8,18 +8,18 @@ export default function AboutSection(): React.JSX.Element {
   return (
     <div id="about" data-section="about">
               <AboutTestimonialParallax
-                textAnimation="fade"
-                tag="About"
-                quote="I don't design to decorate — I design to solve. Sharp, intentional work that moves brands forward."
-                author="Joseph Alexander"
-                role="Independent Designer"
-                imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp?_wi=2"
-                socialLinks={[
+        textAnimation="fade"
+        tag="About"
+        quote="I don't design to decorate — I design to solve. Sharp, intentional work that moves brands forward."
+        author="Joseph Alexander"
+        role="Independent Designer"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png"
+        socialLinks={[
                   { icon: "Twitter", label: "Twitter", href: "#" },
                   { icon: "Linkedin", label: "LinkedIn", href: "#" },
                   { icon: "Instagram", label: "Instagram", href: "#" },
                 ]}
-              />
+      />
             </div>
   );
 }
