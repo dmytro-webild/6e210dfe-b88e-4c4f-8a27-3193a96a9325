@@ -13,7 +13,7 @@ export default function TestimonialSection(): React.JSX.Element {
                 rating={5}
                 author="Aionlabs"
                 avatars={[
-                  { name: "Aionlabs", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792435973492-pm6dm5hp.png" },
+                  { name: "Aionlabs", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792435973492-pm6dm5hp.png?_wi=2" },
                 ]}
               />
     </div>
