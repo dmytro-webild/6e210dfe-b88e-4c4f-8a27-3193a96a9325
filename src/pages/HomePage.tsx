@@ -22,7 +22,7 @@ export default function HomePage(): React.JSX.Element {
 <StyleProvider siteBackground="none" heroBackground="none" buttonVariant="stagger">
         <LoaderReveal
           imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp?_wi=1"
-          title="Joseph Alexander"
+          title="Aion"
         />
 
         <SiteBackgroundSlot />
