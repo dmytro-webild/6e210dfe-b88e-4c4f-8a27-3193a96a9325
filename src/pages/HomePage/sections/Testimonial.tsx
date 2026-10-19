@@ -11,9 +11,9 @@ export default function TestimonialSection(): React.JSX.Element {
                 textAnimation="fade"
                 quote="Soluções inteligentes e intencionais que impulsionam marcas e empresas para o futuro."
                 rating={5}
-                author="Aion"
+                author="Aionlabs"
                 avatars={[
-                  { name: "Aion", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png?_wi=2" },
+                  { name: "Aionlabs", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png?_wi=2" },
                 ]}
               />
     </div>
