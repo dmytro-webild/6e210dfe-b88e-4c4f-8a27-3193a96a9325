@@ -8,14 +8,12 @@ export default function TestimonialSection(): React.JSX.Element {
   return (
     <div id="testimonial" data-section="testimonial">
       <TestimonialTrustCard
-                textAnimation="fade"
-                quote="Soluções inteligentes e intencionais que impulsionam marcas e empresas para o futuro."
-                rating={5}
-                author="Aionlabs"
-                avatars={[
-                  { name: "Aionlabs", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792435973492-pm6dm5hp.png?_wi=2" },
-                ]}
-              />
+        textAnimation="fade"
+        quote="Soluções inteligentes e intencionais que impulsionam marcas e empresas para o futuro."
+        rating={5}
+        author="Aion"
+        avatars={[{"name":"Aion","imageSrc":"https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792437421025-wdsw5v9y.png"}]}
+      />
     </div>
   );
 }
