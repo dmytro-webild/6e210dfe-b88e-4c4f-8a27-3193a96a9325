@@ -51,7 +51,7 @@ export default function FaqSection(): React.JSX.Element {
                   },
                 ]}
                 cta={{
-                  imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
+                  imageSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp?_wi=3",
                   name: "More questions? Reach out anytime.",
                   role: "joseph@alexandercreative.com",
                   buttonText: "Book a call",
