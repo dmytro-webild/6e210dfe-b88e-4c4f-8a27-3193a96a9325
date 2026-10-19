@@ -13,7 +13,7 @@ export default function AboutSection(): React.JSX.Element {
         quote="I don't design to decorate — I design to solve. Sharp, intentional work that moves brands forward."
         author="Aionlabs"
         role="Independent Designer"
-        imageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792438749806-etqolzoj.png"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792438749806-etqolzoj.png?_wi=1"
         socialLinks={[{"icon":"Linkedin","href":"#","label":"LinkedIn"},{"icon":"Instagram","href":"#","label":"Instagram"}]}
       />
             </div>
