@@ -10,8 +10,8 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFloatingLogo
-                  logo="Joseph Alexander"
-                  logoImageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp"
+                  logo="Aion"
+                  logoImageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792424909880-ykyszrma.png"
                   navItems={[
                     { name: "Work", href: "#work" },
                     { name: "About", href: "#about" },
@@ -24,8 +24,8 @@ export default function Layout() {
         <Outlet />
       </main>
       <FooterMinimal
-                brand="Alexander"
-                copyright="© 2026 Joseph Alexander. All rights reserved."
+                brand="Aion"
+                copyright="© 2026 Aion. All rights reserved."
                 socialLinks={[
                   { icon: "Twitter", href: "#" },
                   { icon: "Linkedin", href: "#" },
