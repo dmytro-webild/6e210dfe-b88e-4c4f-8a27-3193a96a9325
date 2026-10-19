@@ -15,7 +15,7 @@ export default function HeroSection(): React.JSX.Element {
         titleHighlight="commands attention."
         description="Design engineered for performance, not just aesthetics."
         descriptionMuted="I craft every visual touchpoint your brand needs to capture attention and convert it into revenue."
-        primaryButton={{"href":"#contact","avatarLabel":"You","text":"Book a call with me","avatarSrc":"https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792435973492-pm6dm5hp.png"}}
+        primaryButton={{"avatarSrc":"https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792435973492-pm6dm5hp.png","text":"Book a call with me","avatarLabel":"Aion","href":"#contact"}}
         sectionTag="Selected Work"
         sectionTitle="Projects That Speak for Themselves"
         sectionDescription="A curated selection of design work that drove real business results for ambitious brands."
