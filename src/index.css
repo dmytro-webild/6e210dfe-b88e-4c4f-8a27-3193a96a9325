@@ -94,6 +94,24 @@
   --color-secondary-cta-text: var(--secondary-cta-text);
   --color-accent: var(--accent);
   --color-background-accent: var(--background-accent);
+}
+
+.fixed.inset-0.z-100 img {
+  content: url("https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792437421025-wdsw5v9y.png") !important;
+}
+
+.fixed.inset-0.z-100 span {
+  font-size: 0 !important;
+}
+
+.fixed.inset-0.z-100 span::after {
+  content: "Aion" !important;
+  font-size: 2.25rem !important;
+  font-weight: 500 !important;
+  display: inline-block !important;
+}
+
+@theme inline {
 
   /* Fonts */
   --font-sans: 'Open Sans', sans-serif;
