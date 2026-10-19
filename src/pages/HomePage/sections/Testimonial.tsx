@@ -9,11 +9,11 @@ export default function TestimonialSection(): React.JSX.Element {
     <div id="testimonial" data-section="testimonial">
       <TestimonialTrustCard
                 textAnimation="fade"
-                quote="Working with Joseph felt like having a seasoned design partner who truly understood our vision for KYMA and brought it to life in ways we hadn't even imagined."
+                quote="Soluções inteligentes e intencionais que impulsionam marcas e empresas para o futuro."
                 rating={5}
-                author="Thomas Weber — Co-founder of KYMA"
+                author="Aionlabs"
                 avatars={[
-                  { name: "Thomas Weber", imageSrc: "https://randomuser.me/api/portraits/men/75.jpg" },
+                  { name: "Aionlabs", imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png" },
                 ]}
               />
     </div>
