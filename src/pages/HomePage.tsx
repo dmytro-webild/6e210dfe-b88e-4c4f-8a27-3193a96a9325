@@ -21,8 +21,8 @@ export default function HomePage(): React.JSX.Element {
   return (
 <StyleProvider siteBackground="none" heroBackground="none" buttonVariant="stagger">
         <LoaderReveal
-          imageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png"
-          title="Aion"
+          imageSrc="https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp?_wi=1"
+          title="Joseph Alexander"
         />
 
         <SiteBackgroundSlot />
