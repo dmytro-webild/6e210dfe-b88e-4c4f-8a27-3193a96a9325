@@ -15,9 +15,9 @@ export default function AboutSection(): React.JSX.Element {
         role="Independent Designer"
         imageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png?_wi=1"
         socialLinks={[
-                  { icon: "Twitter", label: "Twitter", href: "#" },
+                  { icon: "Twitter", label: "Whatsapp", href: "https://wa.me/5511970224588" },
                   { icon: "Linkedin", label: "Instagram", href: "https://www.instagram.com/aionlabs.ia/" },
-                  { icon: "Instagram", label: "Instagram", href: "#" },
+                  { icon: "Instagram", label: "Instagram", href: "https://www.instagram.com/aionlabs.ia/" },
                 ]}
       />
             </div>
