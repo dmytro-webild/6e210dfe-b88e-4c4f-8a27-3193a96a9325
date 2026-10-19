@@ -51,7 +51,7 @@ export default function FaqSection(): React.JSX.Element {
                   },
                 ]}
                 cta={{
-                  imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png?_wi=2",
+                  imageSrc: "https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792438749806-etqolzoj.png",
                   name: "More questions? Reach out anytime.",
                   role: "comercial@aionlabs.ia.br",
                   buttonText: "Book a call",
