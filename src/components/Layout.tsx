@@ -29,7 +29,7 @@ export default function Layout() {
                 socialLinks={[
                   { icon: "Twitter", href: "#" },
                   { icon: "Linkedin", href: "#" },
-                  { icon: "Instagram", href: "#" },
+                  { icon: "Instagram", href: "https://www.instagram.com/aionlabs.ia/" },
                 ]}
               />
     </StyleProvider>
