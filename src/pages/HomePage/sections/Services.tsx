@@ -13,12 +13,7 @@ export default function ServicesSection(): React.JSX.Element {
         title="What I Bring to the Table"
         description="End-to-end creative services designed to make your brand impossible to ignore — from the first frame to the final pixel."
         features={[{"description":"Art-directed shoots that capture your brand's personality. Every image is color-graded and built to stop the scroll.","title":"App","imageSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/photography.webp"},{"imageSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/product-design.webp","description":"User-centered interfaces for apps and SaaS products. From wireframe to pixel-perfect UI — intuitive experiences that keep users coming back.","title":"Branding"},{"title":"Website","imageSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/website.webp","description":"Conversion-focused websites that look sharp and perform. Clean layouts, strategic CTAs, and responsive design that turns traffic into revenue."},{"title":"UGC","description":"Brand films and product videos engineered for engagement. Story-driven visuals that convert viewers into customers.","imageSrc":"https://storage.googleapis.com/webild/default/templates/creative-portfolio/videos.webp"}]}
-        ctaButton={{
-                  text: "Book a call with me",
-                  href: "#contact",
-                  avatarSrc: "https://storage.googleapis.com/webild/default/templates/creative-portfolio/avatar.webp",
-                  avatarLabel: "You",
-                }}
+        ctaButton={{"avatarSrc":"https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792429334693-zqlyqt4c.png","text":"Book a call with me","href":"#contact","avatarLabel":"You"}}
       />
             </div>
   );
