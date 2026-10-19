@@ -11,7 +11,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <NavbarFloatingLogo
                   logo="Aion"
-                  logoImageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792424909880-ykyszrma.png"
+                  logoImageSrc="https://storage.googleapis.com/webild/users/user_3Fk11DM8jkTaVwbvzwOo9lviWTJ/uploaded-1792435973492-pm6dm5hp.png"
                   navItems={[
                     { name: "Work", href: "#work" },
                     { name: "About", href: "#about" },
